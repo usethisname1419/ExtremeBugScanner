@@ -72,6 +72,13 @@ Edit `config.yaml` to:
 - Add new checks in `scanner/checks/` and register them in `scanner/checks/__init__.py` and `scanner/engine.py`.
 - Use `Finding` and `FindingType` in `scanner/models.py` for consistent reporting.
 
+
+## Money
+
+everybody needs money to live, so would be pretty extreme if you gave me some .'
+BTC
+`bc1qtezfajhysn6dut07m60vtg0s33jy8tqcvjqqzk`
+
 ## License
 
 Use at your own risk. For authorized security testing only.
