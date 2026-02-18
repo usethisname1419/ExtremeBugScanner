@@ -16,6 +16,9 @@ A comprehensive, modular security scanner for bug bounty and penetration testing
   - **Info disclosure**: Stack traces, paths, debug info in responses.
   - **HTTP methods**: Allowed methods (TRACE, PUT, DELETE, etc.).
 
+## Extreme Mode
+
+ - Use the flag `--extreme` for more extreme results
 ## Requirements
 
 - Python 3.10+
