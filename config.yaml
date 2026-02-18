@@ -1,0 +1,30 @@
+# Bug Bounty Scanner Configuration
+scanner:
+  timeout: 10
+  max_redirects: 5
+  user_agent: "BugBountyScanner/1.0 (Security Research)"
+  delay_between_requests: 0.5  # seconds, be respectful to targets
+
+crawl:
+  max_depth: 2
+  max_pages: 50
+  follow_external: false
+
+checks:
+  xss: true
+  sqli: true
+  headers: true
+  secrets: true
+  ssl: true
+  cors: true
+  security_headers: true
+  info_disclosure: true
+  http_methods: true
+  open_redirect: true
+  ssrf: true
+
+# OAST URL for open redirect (payload) and SSRF (callback). e.g. Burp Collaborator, Interactsh.
+# Leave empty to use built-in placeholder for open redirect only; SSRF probes are skipped.
+oast_url: ""
+
+severity_threshold: low  # low, medium, high, critical
